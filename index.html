@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/nav_sun.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,99 +11,104 @@
     <title>Солнечная Система</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="nav">
-                <div class="nav_image">
-                    <a href="index.html"><img src="images/nav_sun.svg" alt="sun_logo" class="image"></a>
+    <div class="container">
+        <header>
+            
+                <div class="nav">
+                    <div class="nav_image">
+                        <a href="index.html"><img src="images/nav_sun.svg" alt="sun_logo" class="image"></a>
+                    </div>
+                    <div class="nav_list">
+                        <button class="ham">
+                            <span class="menuIcon material-icons">
+                              <img src="images/menu_white_24dp.svg" alt="">
+                            </span>
+                            <span class="xIcon material-icons">
+                              <img src="images/close_black_48dp.svg" alt="">
+                            </span>
+                          </button>
+                        <ul class="menu">
+                            <li><a class="menuLink" href="pages/merkury.html">Меркурий</a></li>
+                            <li><a class="menuLink" href="pages/venus.html">Венера</a></li>
+                            <li><a class="menuLink" href="pages/earth.html">Земля</a></li>
+                            <li><a class="menuLink" href="pages/mars.html">Марс</a></li>
+                            <li><a class="menuLink" href="pages/jupiter.html">Юпитер</a></li>
+                            <li><a class="menuLink" href="pages/saturn.html">Сатурн</a></li>
+                            <li><a class="menuLink" href="pages/uranus.html">Уран</a></li>
+                            <li><a class="menuLink" href="pages/neptune.html">Нептун</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="nav_list">
-                    <button class="ham" title="menu">
-                        <span class="menuIcon material-icons">
-                          <img src="images/menu_white_24dp.svg" alt="">
-                        </span>
-                        <span class="xIcon material-icons">
-                          <img src="images/close_black_48dp.svg" alt="">
-                        </span>
-                      </button>
-                    <ul class="menu">
-                        <li><a class="menuLink" href="pages/merkury.html">Меркурий</a></li>
-                        <li><a class="menuLink" href="pages/venus.html">Венера</a></li>
-                        <li><a class="menuLink" href="pages/earth.html">Земля</a></li>
-                        <li><a class="menuLink" href="pages/mars.html">Марс</a></li>
-                        <li><a class="menuLink" href="pages/jupiter.html">Юпитер</a></li>
-                        <li><a class="menuLink" href="pages/saturn.html">Сатурн</a></li>
-                        <li><a class="menuLink" href="pages/uranus.html">Уран</a></li>
-                        <li><a class="menuLink" href="pages/neptune.html">Нептун</a></li>
+                <div class="header_info">
+                    <div class="header_text">
+                        <h1>Солнечная Система</h1>
+                        <h2>Самые заветные тайны</h2>
+                    </div>
+                    <div class="header_image">
+                        <img src="images/header_image.svg" alt="">
+                    </div>
+                </div>
+            
+            
+        </header>
+        <section class="first_section">
+            
+                <h2>Солнце - главная звезда</h2>
+                <div class="block">
+                    <img src="images/sun/sun_image1.svg" alt="sun_img">
+                    <p>Солнце - центральное тело Солнечной системы, состоящее в основном из горячей плазмы и являющееся источником света и тепла для планет.</p>
+                </div>
+            </div>
+        </section>
+        <section class="second_section">
+            <div class="container">
+                <h2>Интересные факты:</h2>
+                <div class="block_facts">
+                    <ul>
+                        <li>Солнце является звездой типа Главная последовательность, которая производит энергию путем термоядерных реакций, превращающих водород в гелий.</li>
+                        <li>Его диаметр составляет около 1.4 миллиона километров, что в 109 раз больше диаметра Земли, и масса в 330,000 раз больше массы Земли.</li>
+                        <li>Солнечная активность, такая как солнечные пятна и вспышки, имеет циклический характер и зависит от 11-летнего солнечного цикла.</li>
+                    </li>
                     </ul>
                 </div>
-            </div>
-            <div class="header_info">
-                <div class="header_text">
-                    <h1>Солнечная Система</h1>
-                    <h2>Самые заветные тайны</h2>
+            
+        </section>
+        <section class="third_section">
+            
+                <h2>Больше картинок:</h2>
+                <div class="another_img">
+                    <div class="prev_button" id="prev_button">
+                        <img src="images/button.svg" alt="">
+                    </div>
+                    <div class="anth_image">
+                        <img src="images/sun/sun_image2.svg" alt="">
+                        <img src="images/sun/sun_image3.svg" alt="">
+                        <img src="images/sun/sun_image4.svg" alt="">
+                    </div>
+                    <div class="next_button" id="next_button">
+                        <img src="images/button.svg" alt="">
+                    </div>
                 </div>
-                <div class="header_image">
-                    <img src="images/header_image.svg" alt="">
-                </div>
+            
+        </section>
+        <footer>
+            <div class="first_footer_block">
+                <p>Контакты создателя макета</p>
+                <p>80-(29)-603-27-81</p>
+                <p><a href="https://www.instagram.com/_vasi.lev_vlad.islav_/">Instagram</a></p>
+                <p><a href="https://t.me/vlad_islav_vasi_lev">Telegram</a></p>
+                <p><a href="https://vk.com/vlad.vasilyev2017">Вконтакте</a></p>
             </div>
-        </div>
-        
-    </header>
-    <section class="first_section">
-        <div class="container">
-            <h2>Солнце - главная звезда</h2>
-            <div class="block">
-                <img src="images/sun/sun_image1.svg" alt="sun_img">
-                <p>Солнце - центральное тело Солнечной системы, состоящее в основном из горячей плазмы и являющееся источником света и тепла для планет.</p>
+            <div class="second_footer_block">  
+                <p>Создано своими ручками в 2 часа ночи </p>
+                <p>Надеюсь вы одобрите </p>
+                <p> </p>
+                <p>2024 г.</p>
+                
             </div>
-        </div>
-    </section>
-    <section class="second_section">
-        <div class="container">
-            <h2>Интересные факты:</h2>
-            <div class="block_facts">
-                <ul>
-                    <li>Солнце является звездой типа Главная последовательность, которая производит энергию путем термоядерных реакций, превращающих водород в гелий.</li>
-                    <li>Его диаметр составляет около 1.4 миллиона километров, что в 109 раз больше диаметра Земли, и масса в 330,000 раз больше массы Земли.</li>
-                    <li>Солнечная активность, такая как солнечные пятна и вспышки, имеет циклический характер и зависит от 11-летнего солнечного цикла.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="third_section">
-        <div class="container">
-            <h2>Больше картинок:</h2>
-            <div class="another_img">
-                <div class="prev_button" id="prev_button">
-                    <img src="images/button.svg" alt="">
-                </div>
-                <div class="anth_image">
-                    <img src="images/sun/sun_image2.svg" alt="">
-                    <img src="images/sun/sun_image3.svg" alt="">
-                    <img src="images/sun/sun_image4.svg" alt="">
-                </div>
-                <div class="next_button" id="next_button">
-                    <img src="images/button.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="first_footer_block">
-            <p>Контакты создателя макета</p>
-            <p>80-(29)-603-27-81</p>
-            <p><a href="https://www.instagram.com/_vasi.lev_vlad.islav_/">Instagram</a></p>
-            <p><a href="https://t.me/vlad_islav_vasi_lev">Telegram</a></p>
-            <p><a href="https://vk.com/vlad.vasilyev2017">Вконтакте</a></p>
-        </div>
-        <div class="second_footer_block">  
-            <p>Создано своими ручками в 2 часа ночи </p>
-            <p>Надеюсь вы одобрите </p>
-            <p> </p>
-            <p>2024 г.</p>
-        </div>
-    </footer>
+            <iframe src="xml/footer.xml" frameborder="0"></iframe>
+        </footer>
+    </div>
     <script src="scripts/index.js"></script>
     <script src="scripts/hamburger.js"></script>
 </body>
